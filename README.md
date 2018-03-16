@@ -1,7 +1,9 @@
 
 # STT 461: Computations in Probability and Statistics
 
-**MWF, 11:30 pm- 12:20 pm, 314 Ernst Bessey Hall**
+**MWF, 11:30 am- 12:20 pm, 314 Ernst Bessey Hall**
+
+**Note:  New date for Exam 2: April 11 (wed), 2018**
 
 In this course we will cover computational methods commonly used in statistics, including algorithms used for fitting and non-linear regressions, maximum likelihood estimation, simulation of random variables, bootstrap, cross-validation and algorithms for implementing high dimensional regressions.
 
@@ -9,7 +11,7 @@ In this course we will cover computational methods commonly used in statistics, 
 
 **Office hours**: Mon and Wed: 2:00 pm- 3:00 pm Wells Hall C435
 
-**TA Office hours**: Jialin Qu (qujialin@stt.msu.edu) Fri: 9:00 am-11:00 am Wells Hall C522
+**TA**: Jialin Qu (qujialin@stt.msu.edu) 
 
 **Software**: The course will be mostly based on [R](https://www.r-project.org/). 
 
@@ -24,10 +26,6 @@ you learning about statistical analyses in R.
 
 [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/index.html). This book covers many of the topics we will discuss. 
 
-
-[**Syllabus**](https://github.com/younghhk/STT461/blob/master/STT461_syllabus.pdf)
-
-
 <div id="Outline" />
 
 ## Course Content
@@ -37,11 +35,35 @@ Note: this is a tentative list of topics, if time permits we will try to cover a
   * **[Quick Introduction to R](https://github.com/younghhk/STT461/blob/master/RIntro.md)**
   * **[Matrix Algebra in R](https://github.com/younghhk/STT461/blob/master/matrixAlgebraR.md)**
 
-## Slides
-
-  * **Generating Random Number** [pdf](https://app.box.com/s/3i2byay2m9doi7ordo8rnsgblp95kc5c)
+  * **Inverse CDF method** [pdf](https://app.box.com/s/0zqvlwnz1i4kpx4j5wkpb9hjaiq0btn4)
+  * **Acceptance-rejection method** [pdf](https://app.box.com/s/bx59lqxg11nztf274gr2my9xndgb3xu1)
+  * **Monte Carlo integration method** [pdf](https://app.box.com/s/e0tcs2fk6qhror38n25s2d9432g4pgl3)
+  * **Importance sampling** [pdf](https://app.box.com/s/bqg3i18mesvgudor2qwxhbye9pn7m4k5)
   
+   * **Ordinary Least Squares: Estimation & Inference** [pdf](https://app.box.com/s/cdrefx3bafz5jxqtbh3chtv74uhg8cvx)
+    * Derivation of closed-form solution
+    * Computation using `lm`, `lsfit`
+    * Computing estimates, SEs and p-values using matrix operations 
+    * Transformation
+   
+   * **Logistic regression: Estimation & Inference** [pdf](https://app.box.com/s/2u4ali2xe8a1gyqampol7dqx31nq284w)
+    * Odds and odds ratio
+    * Likelihood
+    * Computation using `glm` 
+    
+   * **Bootstrap** [pdf](https://app.box.com/s/npmmydwcmzzmzvtyy6x24t8r1igfc3ax)
+    * Example  [pdf](https://app.box.com/s/myup7ehv1u3qy91lnew5tnn4058x12an) 
+
 ## Homework
 
-  * [HW1](https://github.com/younghhk/STT461/blob/master/HW1.md)
+  * [HW1](https://app.box.com/s/kjthu2xu06kn26cqo4ual4y9goqs3l58)
+  
+  * [HW2](https://app.box.com/s/i05bgl7zso4ljayzdliso04nh18yxpuh)
  
+ *  [HW3 (pdf)](https://app.box.com/s/htydhezd9oo80xc1q2zd086ryiz8v3w7)  [HW3 (rmd)](https://app.box.com/s/l50vk3r3rk3ei4vdtdulduvkavzmbzt0)
+ 
+ * [HW4 (pdf)](https://app.box.com/s/vzhv100opsw1nw63r68csd1u8mmni0fg)
+ [HW4 (rmd)](https://app.box.com/s/a1uda3jglj9nez1m1vsoojbx9zzlft4f)
+ 
+ ## Exam
+ * [Sample Exam 1](https://app.box.com/s/49rbgqfikxw2fi597muf0vi6o8qlnvfo)
